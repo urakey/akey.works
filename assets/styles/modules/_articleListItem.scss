@@ -17,13 +17,13 @@
     
     &:hover {
       
-      figure {
-        background-color: $accent-color-yellow;
-      }
+      // figure {
+      //   background-color: $accent-color-yellow;
+      // }
 
       img {
-        // opacity: .9;
-        mix-blend-mode: multiply;
+        opacity: .85;
+        // mix-blend-mode: multiply;
       }
 
       &::after {
