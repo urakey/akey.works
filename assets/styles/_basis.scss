@@ -1,0 +1,70 @@
+//==============================================================================
+//  Basis
+//==============================================================================
+
+body {
+  @include fontSize(16);
+
+  background: $base-background;
+  color: $base-color;
+  font-family: $base-font;
+  line-height: 1.7;
+  padding: $margin-xxxl $margin-l;
+
+  @media only screen and (max-width: $break-point-large) {
+    padding: $margin-xxl $margin-m;
+  }
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+    padding: $margin-xl $margin-s;
+  }
+}
+
+a {
+  color: $base-link-color;
+
+  &:hover {
+    color: $base-link-color-hover;
+  }
+}
+
+img {
+  vertical-align: bottom;
+}
+
+figure {
+  margin: 0;
+}
+
+input,
+textarea {
+  @include fontSize(16);
+
+  outline: none;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+  }
+}
+
+::selection {
+  background: $accent-color-yellow;
+}
+
+.contents {
+  @include wrapper;
+  padding: $margin-xxxl 0;
+
+  @media only screen and (max-width: $break-point-large) {
+    padding: $margin-xxl 0;
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-xl 0;
+  }
+
+  @media only screen and (max-width: $break-point-small) {
+    padding: $margin-l 0;
+  }
+}

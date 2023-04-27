@@ -1,0 +1,42 @@
+//==============================================================================
+//  Variables
+//==============================================================================
+
+// Base Colors
+$key-gold:      #b0af96;
+$key-gray:      #a7a7a7;
+$accent-color-yellow:      #dcff07;
+$neutral-color-black:      #111111;
+$neutral-color-dark-gray:  #333333;
+$neutral-color-gray:       #888888;
+$neutral-color-soft-gray:  #cccccc;
+$neutral-color-light-gray: #eeeeee;
+$neutral-color-pale-gray:  #fbfbfb;
+$neutral-color-white:      #ffffff;
+
+// Content Base Setting
+$base-image: "/assets/images";
+$base-font: 'Poppins', sans-serif;
+$code-font: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
+
+$base-background:         $neutral-color-white;
+$base-color:              $neutral-color-black;
+$base-link-color:         $neutral-color-black;
+$base-link-color-hover:   $accent-color-yellow;
+$base-link-color-visited: $neutral-color-black;
+
+$border-color:     $neutral-color-light-gray;
+$background-color: $neutral-color-pale-gray;
+$break-point-large:  1200px;
+$break-point-medium: 580px;
+$break-point-small:  400px;
+
+// Other
+$margin-xxxl: 128px;
+$margin-xxl:  104px;
+$margin-xl:    80px;
+$margin-l:     64px;
+$margin-m:     40px;
+$margin-s:     24px;
+$margin-xs:    16px;
+$margin-xxs:    8px;

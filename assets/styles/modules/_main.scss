@@ -1,0 +1,19 @@
+//==============================================================================
+//  Module: Main
+//==============================================================================
+
+.main {
+  width: 100%;
+}
+
+.main__title {
+  @include fontSize(48);
+
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+
+  @media only screen and (max-width: $break-point-large) {
+    @include fontSize(32);
+  }
+}

@@ -1,0 +1,81 @@
+//==============================================================================
+//  Module: Article list item
+//==============================================================================
+
+.articleListItem {
+
+  a {
+    text-decoration: none;
+    
+    img {
+      vertical-align: top;
+      transition-duration: .2s;
+      transition-property: opacity;
+      transition-timing-function: ease;
+      backface-visibility: hidden;
+    }
+    
+    &:hover {
+      
+      figure {
+        background-color: $accent-color-yellow;
+      }
+
+      img {
+        // opacity: .9;
+        mix-blend-mode: multiply;
+      }
+
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+}
+
+.articleListItem__eyecatch {
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.articleListItem__title {
+  @include fontSize(20);
+
+  font-weight: 700;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: $margin-xs 0 0;
+  padding: 0px;
+  gap: $margin-xxs;
+
+  &::before {
+    content: url($base-image + "/mark.svg");
+  }
+
+  @media only screen and (max-width: $break-point-large) {
+    @include fontSize(18);
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(16);
+  }
+}
+
+.articleListItem__period {
+  @include fontSize(12);
+  
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 0 $margin-s;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(11);
+  }
+}

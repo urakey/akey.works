@@ -1,0 +1,18 @@
+Baseurl          = 'https://akey.works'
+Title            = 'Works.'
+Publishdir       = 'docs'
+Paginate         = 24
+
+[Author]
+name = 'Aki FUKAYAMA (akey)'
+url  = '/about/'
+
+[Params]
+description = 'Aki FUKAYAMA (akey)  is Tokyo based Service Designer.'
+feed        = '/feed.rss'
+
+[Taxonomies]
+categories = 'categories'
+
+[markup.goldmark.renderer]
+  unsafe = true

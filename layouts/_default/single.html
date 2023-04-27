@@ -1,0 +1,35 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="main" role="main">
+  <article class="article" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <h1 class="article__title" itemprop="name">{{ .Title | safeHTML }}</h1>
+    <p class="article__period">{{ .Params.period }}</p>
+    <div class="article__body" itemprop="articleBody">
+      {{ .Content }}
+      <div class="article__figure">
+        {{ with .Params.eyecatch }}
+        <figure> <img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+        {{ with .Params.figure1 }}
+          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+        {{ with .Params.figure2 }}
+          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+        {{ with .Params.figure3 }}
+          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+        {{ with .Params.figure4 }}
+          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+        {{ with .Params.figure5 }}
+          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+</main>
+
+{{ partial "footer.html" . }}
+{{ partial "tail.html" . }}

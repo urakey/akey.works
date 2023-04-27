@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="main" role="main">
+  <ul class="articleList">
+    {{ range (.Paginator).Pages }}
+    <li class="articleList__item">
+      {{ .Render "summary" }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</main>
+
+{{ partial "footer.html" . }}
+{{ partial "tail.html" . }}
