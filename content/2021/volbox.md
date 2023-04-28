@@ -8,5 +8,5 @@ eyecatch:   '/assets/images/posts/2021/volbox/eyecatch.png'
 figure1:   '/assets/images/posts/2021/volbox/image-1.png'
 ---
 
-VolboxアプリのDesignerのアドバイザーとして参画。  
-Web版を立ち上げる際は、要件定義・使用策定を含めたDesign全般を担当しました。
+VolboxアプリのUX設計に関するアドバイザーとして参画。  
+Web版を立ち上げる際は、要件定義・仕様策定を含めたDesign全般を担当しました。

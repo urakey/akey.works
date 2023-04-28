@@ -14,7 +14,7 @@
       <pubDate>Sat, 01 Oct 2022 00:00:00 UTC</pubDate>
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/fitgo/</guid>
-      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2022/fitgo/eyecatch.png" alt="" itemprop="image"></figure><p>既存のアプリを再設計。要件定義・使用策定を含めたDesign全般を担当。</p>
+      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2022/fitgo/eyecatch.png" alt="" itemprop="image"></figure><p>既存のアプリを再設計。要件定義・仕様策定を含めたDesign全般を担当。</p>
 <p>ジム利用のオフライン体験部分を含め、迷いなくスムーズに利用するためのコミュニケーションを重点的に再構築しました。<br>
 今後の再利用性や拡張性を考慮し、Design Guideline、Design System、Wording Rules なども合わせて定義しました。</p>
 ]]></description>
@@ -36,8 +36,8 @@
       <pubDate>Tue, 31 Aug 2021 00:00:00 UTC</pubDate>
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/volbox/</guid>
-      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/volbox/eyecatch.png" alt="" itemprop="image"></figure><p>VolboxアプリのDesignerのアドバイザーとして参画。<br>
-Web版を立ち上げる際は、要件定義・使用策定を含めたDesign全般を担当しました。</p>
+      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/volbox/eyecatch.png" alt="" itemprop="image"></figure><p>VolboxアプリのUX設計に関するアドバイザーとして参画。<br>
+Web版を立ち上げる際は、要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 ]]></description>
     </item>
   
@@ -48,7 +48,7 @@ Web版を立ち上げる際は、要件定義・使用策定を含めたDesign�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/chompy-for-smb/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/chompy-for-smb/eyecatch.png" alt="" itemprop="image"></figure><p>飲食小売ブランド向けのオリジナルアプリ。<br>
-要件定義・使用策定を含めたDesign全般を担当しました。</p>
+要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 <section class="notes">
 <ul>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000011.000062766.html">Chompy、ファンのスマホにお店を開店できる公式アプリ/WEB無料開設サービス「Chompy」のベータ版を提供開始</a></li>
@@ -81,7 +81,7 @@ Web版を立ち上げる際は、要件定義・使用策定を含めたDesign�
       <guid>https://akey.works/chompy-studio-app/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy-studio-app/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のパートナー(飲食店)向けアプリ。<br>
 お客さま向けアプリから寄せられるレビューへの返答や、動画投稿などを移動中でも気軽におこなえることを目的に作成。</p>
-<p>要件定義・使用策定を含めたDesign全般を担当しました。</p>
+<p>要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 ]]></description>
     </item>
   
@@ -104,7 +104,7 @@ Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/chompy-app/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy-app/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のお客さま向けアプリ。<br>
-要件定義・使用策定を含めたDesign全般を担当しました。</p>
+要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 ]]></description>
     </item>
   
@@ -115,7 +115,7 @@ Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/chompy-crew-app/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy-crew-app/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のクルー(配達員)向けアプリ。<br>
-要件定義・使用策定を含めたDesign全般を担当しました。</p>
+要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 ]]></description>
     </item>
   
@@ -126,7 +126,7 @@ Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/chompy-partner-app/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy-partner-app/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のパートナー(飲食店)向けアプリ。<br>
-要件定義・使用策定を含めたDesign全般を担当しました。</p>
+要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 ]]></description>
     </item>
   
@@ -157,7 +157,7 @@ Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの�
       <pubDate>Mon, 08 May 2017 00:00:00 UTC</pubDate>
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/mercari-kauru/</guid>
-      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2017/mercari-kauru/eyecatch.png" alt="" itemprop="image"></figure><p>立ち上げからサービス終了まで、PM + Designerとして要件定義・使用策定を含めたDesign全般を担当しました。</p>
+      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2017/mercari-kauru/eyecatch.png" alt="" itemprop="image"></figure><p>立ち上げからサービス終了まで、PM + Designerとして要件定義・仕様策定を含めたDesign全般を担当しました。</p>
 <section class="notes">
 <ul>
 <li><a href="https://about.mercari.com/press/news/articles/20170508_kauru/">「メルカリ アッテ」に続くメルカリ姉妹アプリ第2弾 エンタメ・ホビー特化のフリマアプリ「メルカリ カウル」を提供開始-メルカリと連携し本・CD・DVD/ブルーレイが「すぐ売れる」を実現-</a></li>

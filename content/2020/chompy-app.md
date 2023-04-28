@@ -11,4 +11,4 @@ figure3:   '/assets/images/posts/2020/chompy-app/image-3.png'
 ---
 
 フードデリバリーサービス「Chompy」のお客さま向けアプリ。  
-要件定義・使用策定を含めたDesign全般を担当しました。
+要件定義・仕様策定を含めたDesign全般を担当しました。
