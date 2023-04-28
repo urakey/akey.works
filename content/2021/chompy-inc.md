@@ -5,7 +5,9 @@ period:     '2021.06 - 2022.07'
 categories: ['branding']
 url:        '/chompy-inc/'
 eyecatch:   '/assets/images/posts/2021/chompy-inc/eyecatch.png'
-figure1:   '/assets/images/posts/2021/chompy-inc/image-1.png'
+figure1:   '/assets/images/posts/2021/chompy-inc/image-1.jpg'
+figure2:   '/assets/images/posts/2021/chompy-inc/image-2.jpg'
+figure3:   '/assets/images/posts/2021/chompy-inc/image-3.jpg'
 ---
 
 社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新を担当。  

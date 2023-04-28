@@ -86,6 +86,18 @@ Web版を立ち上げる際は、要件定義・使用策定を含めたDesign�
     </item>
   
     <item>
+      <title>Chompy</title>
+      <link>https://akey.works/chompy/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 UTC</pubDate>
+      <author>Aki FUKAYAMA (akey)</author>
+      <guid>https://akey.works/chompy/</guid>
+      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のあらゆるコミュニケーションをデザインしました。</p>
+<p>サービスコンセプトにおいて「ひとの温もりを感じられる」という特色を大切にするための Wording Rules や Voice &amp; Tone を定義。<br>
+Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの接点すべてのライティングを担うことで「Chompyが話す言葉」としての資産をつくりました。</p>
+]]></description>
+    </item>
+  
+    <item>
       <title>Chompy App</title>
       <link>https://akey.works/chompy-app/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 UTC</pubDate>
@@ -177,12 +189,12 @@ Web版を立ち上げる際は、要件定義・使用策定を含めたDesign�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/about/</guid>
       <description><![CDATA[<section id="profile">
-<h3 id="aki-fukayama">AKI FUKAYAMA</h3>
+<h3 id="aki-fukayama">Aki FUKAYAMA</h3>
 <p>Service Designer</p>
 <p>岩手県盛岡市出身。東京都在住。実家は仙台。東京モード学園スタイリスト学科卒。<br>
 数年間アパレル業界をふらふらしてからサービスのデザインをするようになりました。</p>
 <p>人生の余白を楽しむようなサービスをつくること、健康的でいきいきとした毎日を過ごすことをサポートするようなサービスをつくることに興味があります。</p>
-<p>新規の立ち上げや企画にPM兼任で携わることが多く、メンバーと議論しながらカタチを描いていくことが得意で好きです。</p>
+<p>新規サービスの立ち上げや企画にPM兼任で携わることが多く、メンバーと議論しながらカタチを描いていくことが得意で好きです。</p>
 <p>サービスに触れるすべての登場人物の気持ちを一通りトレースしながら設計することをポリシーにしています。特に「1番不利益を被るひと」や「1番疎外感を感じるであろうひと」などの感情をトレースすることは、デザインするときに大切にしていることのひとつです。</p>
 </section>
 <section id="career">
