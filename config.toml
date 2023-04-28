@@ -8,7 +8,7 @@ name = 'Aki FUKAYAMA (akey)'
 url  = '/about/'
 
 [Params]
-description = 'Aki FUKAYAMA (akey)  is Tokyo based Service Designer.'
+description = 'Aki FUKAYAMA (akey) is a Service Designer Based in Tokyo.'
 feed        = '/feed.rss'
 
 [Taxonomies]
