@@ -1,6 +1,6 @@
 ---
 date:       2021-06-26
-title:      'Chompy, Inc'
+title:      'Chompy, Inc.'
 period:     '2021.06 - 2022.07'
 categories: ['branding']
 url:        '/chompy-inc/'

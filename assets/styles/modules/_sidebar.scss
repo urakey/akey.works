@@ -1,0 +1,41 @@
+//==============================================================================
+//  Module: Sidebar
+//==============================================================================
+
+.sidebar {
+  margin-top: $margin-m;
+  
+  @media only screen and (max-width: $break-point-small) {
+    margin-top: $margin-s;
+  }
+}
+
+.sidebar__title {
+  display: none;
+}
+
+.sidebar__list {
+  @include fontSize(24);
+  
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: $margin-s;
+  row-gap: 0;
+
+  @media only screen and (max-width: $break-point-large) {
+    @include fontSize(20);
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(18);
+  }
+}
+

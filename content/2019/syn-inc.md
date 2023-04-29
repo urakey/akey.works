@@ -1,6 +1,6 @@
 ---
 date:       2019-08-01
-title:      'Syn, Inc'
+title:      'Syn, Inc.'
 period:     '2019 - 2021.06'
 categories: ['branding']
 url:        '/syn-inc/'

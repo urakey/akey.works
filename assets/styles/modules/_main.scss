@@ -4,6 +4,19 @@
 
 .main {
   width: 100%;
+  margin-bottom: $margin-xxxl;
+
+  @media only screen and (max-width: $break-point-large) {
+    margin-bottom: $margin-xxl;
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    margin-bottom: $margin-xl;
+  }
+
+  @media only screen and (max-width: $break-point-small) {
+    margin-bottom: $margin-l;
+  }
 }
 
 .main__title {
@@ -11,9 +24,43 @@
 
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 $margin-m;
 
   @media only screen and (max-width: $break-point-large) {
     @include fontSize(32);
   }
+    
+  @media only screen and (max-width: $break-point-small) {
+    margin: 0 0 $margin-s 0 0;
+  }
 }
+
+.main__pagination {
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: $margin-s;
+
+  .nolinks {
+    color: $neutral-color-soft-gray;
+  }
+
+  &--prev,
+  &--next {
+    @include fontSize(24);
+    
+    font-weight: 700;
+    text-transform: uppercase;
+  
+    @media only screen and (max-width: $break-point-large) {
+      @include fontSize(20);
+    }
+  
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(18);
+    }
+  }
+}
+

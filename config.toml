@@ -1,7 +1,7 @@
 Baseurl          = 'https://akey.works'
 Title            = 'Works.'
 Publishdir       = 'docs'
-Paginate         = 24
+Paginate         = 30
 
 [Author]
 name = 'Aki FUKAYAMA (akey)'
@@ -10,6 +10,7 @@ url  = '/about/'
 [Params]
 description = 'Aki FUKAYAMA (akey) is a Service Designer Based in Tokyo.'
 feed        = '/feed.rss'
+archives    = ['2022', '2021', '2020', '2019', '2018', '2017', '2016']
 
 [Taxonomies]
 categories = 'categories'
