@@ -47,7 +47,7 @@ Designer, Front-end Developer
 **2009 NAGI, Inc.**  
 Designer + Front-end Developer  
   
-### 2008
+### 2006
 **A website design company**  
 Designer + Front-end Developer  
 {{% /section %}}
