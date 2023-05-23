@@ -5,8 +5,8 @@ period:     '2020 - 2022.07'
 categories: ['service']
 url:        '/chompy-studio-app/'
 eyecatch:   '/assets/images/posts/2020/chompy-studio-app/eyecatch.png'
-figure1:   '/assets/images/posts/2020/chompy-studio-app/image-1.png'
-figure2:   '/assets/images/posts/2020/chompy-studio-app/image-2.png'
+figure1:    '/assets/images/posts/2020/chompy-studio-app/image-1.png'
+figure2:    '/assets/images/posts/2020/chompy-studio-app/image-2.png'
 ---
 
 フードデリバリーサービス「Chompy」のパートナー(飲食店)向けアプリ。  

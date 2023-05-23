@@ -5,7 +5,7 @@ period:     '2019 - 2022.07'
 categories: ['service']
 url:        '/chompy-partner-app/'
 eyecatch:   '/assets/images/posts/2020/chompy-partner-app/eyecatch.png'
-figure1:   '/assets/images/posts/2020/chompy-partner-app/image-1.png'
+figure1:    '/assets/images/posts/2020/chompy-partner-app/image-1.png'
 ---
 
 フードデリバリーサービス「Chompy」のパートナー(飲食店)向けアプリ。  

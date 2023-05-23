@@ -5,10 +5,10 @@ period:     '2022.10 - '
 categories: ['service']
 url:        '/fitgo/'
 eyecatch:   '/assets/images/posts/2022/fitgo/eyecatch.png'
-figure1:   '/assets/images/posts/2022/fitgo/image-1.png'
-figure2:   '/assets/images/posts/2022/fitgo/image-2.png'
-figure3:   '/assets/images/posts/2022/fitgo/image-3.png'
-figure4:   '/assets/images/posts/2022/fitgo/image-4.png'
+figure1:    '/assets/images/posts/2022/fitgo/image-1.png'
+figure2:    '/assets/images/posts/2022/fitgo/image-2.png'
+figure3:    '/assets/images/posts/2022/fitgo/image-3.png'
+figure4:    '/assets/images/posts/2022/fitgo/image-4.png'
 ---
 
 既存のアプリを再設計。要件定義・仕様策定を含めたDesign全般を担当。

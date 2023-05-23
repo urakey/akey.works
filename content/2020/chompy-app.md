@@ -5,9 +5,9 @@ period:     '2019 - 2022.07'
 categories: ['service']
 url:        '/chompy-app/'
 eyecatch:   '/assets/images/posts/2020/chompy-app/eyecatch.png'
-figure1:   '/assets/images/posts/2020/chompy-app/image-1.png'
-figure2:   '/assets/images/posts/2020/chompy-app/image-2.png'
-figure3:   '/assets/images/posts/2020/chompy-app/image-3.png'
+figure1:    '/assets/images/posts/2020/chompy-app/image-1.png'
+figure2:    '/assets/images/posts/2020/chompy-app/image-2.png'
+figure3:    '/assets/images/posts/2020/chompy-app/image-3.png'
 ---
 
 フードデリバリーサービス「Chompy」のお客さま向けアプリ。  
