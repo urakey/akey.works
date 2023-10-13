@@ -16,42 +16,59 @@
   @media only screen and (max-width: $break-point-medium) {
     flex-direction: column;
     align-items: start;
-    gap: $margin-l;
+    gap: $margin-xxs;
   }
 }
 
 .header__lower {
-  margin: $margin-s 0 0 0;
+  margin: $margin-xxs 0 0 0;
 }
 
 .header__id {
+  @include fontSize(40);
+  
   margin: 0;
 
   a {
-    display: block;
-    width: 340px;
-    text-indent: -7777px;
-    background-image: url($base-image + "/logo.svg");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    text-decoration: none;
+    text-transform: uppercase;
 
-    @media only screen and (max-width: $break-point-large) {
-      width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+    gap: $margin-xxs;
+    // width: 240px;
+    // text-indent: -7777px;
+    // background-image: url($base-image + "/logo.svg");
+    // background-position: left center;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+
+    &::before {
+      content: url($base-image + "/mark.svg");
     }
+  }
+ 
+  @media only screen and (max-width: $break-point-large) {
+    @include fontSize(32);
   }
 }
 
 .header__description {
-  font-weight: 600;
-  margin: 0;
-  padding-left: 60px;
+  @include fontSize(14);
 
-  @media only screen and (max-width: $break-point-large) {
-    padding-left: 42px;
-  }
+  font-weight: 500;
+  margin: 0;
+  padding-left: $margin-s;
+
+  // @media only screen and (max-width: $break-point-large) {
+  //   padding-left: 42px;
+  // }
 
   @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(12);
+    // display: none;
     padding: 0;
     // text-align: center;
   }

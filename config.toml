@@ -1,5 +1,5 @@
 Baseurl          = 'https://akey.works'
-Title            = 'Works.'
+Title            = 'akey.Works'
 Publishdir       = 'docs'
 Paginate         = 30
 

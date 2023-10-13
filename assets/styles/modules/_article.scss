@@ -3,30 +3,32 @@
 //==============================================================================
 
 .article__title {
-  @include fontSize(48);
+  @include fontSize(32);
 
   font-weight: 700;
   margin: 0;
 
   @media only screen and (max-width: $break-point-large) {
-    @include fontSize(32);
+    @include fontSize(24);
   }
 }
 
 .article__period {
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
 
 .article__body {
+  @include fontSize(14);
   margin: $margin-m 0 0;
 
   @media only screen and (max-width: $break-point-small) {
+    @include fontSize(12);
     margin: $margin-s 0 0;
   }
 
   h2 {
-    @include fontSize(32);
+    @include fontSize(24);
 
     margin: $margin-l 0 0.5em;
     font-weight: 700;
@@ -35,7 +37,7 @@
     text-transform: uppercase;
 
     @media only screen and (max-width: $break-point-large) {
-      @include fontSize(24);
+      @include fontSize(22);
     }
   }
 
@@ -83,10 +85,16 @@
   }
 
   .notes {
-    font-size: 80%;
+    font-size: 0.9em;
     padding: $margin-s;
     border: 1px solid $border-color;
     margin: $margin-m 0;
+    background-color: $background-color;
+  }
+
+  .auxiliary {
+    font-size: 0.9em;
+    color: $base-secondary-color;
   }
 }
 

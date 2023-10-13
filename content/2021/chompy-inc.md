@@ -11,7 +11,7 @@ figure3:    '/assets/images/posts/2021/chompy-inc/image-3.jpg'
 ---
 
 社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新を担当。  
-執行役員CBO（Chief Branding Officer）に就任しました。
+執行役員CBO (Chief Branding Officer) に就任しました。
 
 {{% section class="notes" %}}
 - [Chompy（チョンピー）約7.8億円の資金調達完了　飲食小売店のさらなるエンパワーメントに向け、経営体制を強化し「第二創業期」始動][def]

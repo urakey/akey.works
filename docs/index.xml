@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
 <channel>
-  <title>Works.</title>
+  <title>akey.Works</title>
   <link>https://akey.works/</link>
-  
+  <language>en</language>
   <author>Aki FUKAYAMA (akey)</author>
   <description>Aki FUKAYAMA (akey) is a Service Designer Based in Tokyo.</description>
   <generator uri="https://gohugo.io">Hugo</generator>
@@ -87,7 +87,7 @@ Web版を立ち上げる際は、要件定義・仕様策定を含めたDesign�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/chompy-inc/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/chompy-inc/eyecatch.png" alt="" itemprop="image"></figure><p>社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新を担当。<br>
-執行役員CBO（Chief Branding Officer）に就任しました。</p>
+執行役員CBO (Chief Branding Officer) に就任しました。</p>
 <section class="notes">
 <ul>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000010.000062766.html">Chompy（チョンピー）約7.8億円の資金調達完了　飲食小売店のさらなるエンパワーメントに向け、経営体制を強化し「第二創業期」始動</a></li>

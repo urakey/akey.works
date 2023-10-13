@@ -6,9 +6,9 @@ body {
   @include fontSize(16);
 
   background: $base-background;
-  color: $base-color;
+  color: $base-primary-color;
   font-family: $base-font;
-  line-height: 1.7;
+  line-height: 1.6;
   padding: $margin-xxxl $margin-l;
 
   @media only screen and (max-width: $break-point-large) {

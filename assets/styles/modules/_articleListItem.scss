@@ -43,7 +43,7 @@
 }
 
 .articleListItem__title {
-  @include fontSize(20);
+  @include fontSize(18);
 
   font-weight: 700;
   text-decoration: none;
@@ -51,6 +51,7 @@
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  line-height: 1.4;
   margin: $margin-xs 0 0;
   padding: 0px;
   gap: $margin-xxs;
@@ -59,9 +60,9 @@
     content: url($base-image + "/mark.svg");
   }
 
-  @media only screen and (max-width: $break-point-large) {
-    @include fontSize(18);
-  }
+  // @media only screen and (max-width: $break-point-large) {
+  //   @include fontSize(18);
+  // }
 
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(16);
@@ -71,7 +72,7 @@
 .articleListItem__period {
   @include fontSize(12);
   
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   padding: 0 0 0 $margin-s;
 
