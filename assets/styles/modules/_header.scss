@@ -8,6 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   padding: $margin-xxxl $margin-l 0;
 
   @media only screen and (max-width: $break-point-large) {
