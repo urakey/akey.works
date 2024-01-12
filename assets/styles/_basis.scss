@@ -68,6 +68,6 @@ textarea {
   }
 
   @media only screen and (max-width: $break-point-small) {
-    padding: $margin-m 0;
+    padding: $margin-xl 0 $margin-m;
   }
 }
