@@ -1,7 +1,7 @@
 ---
 date:       2022-10-01
 title:      'FitGo! App'
-period:     '2022.10 - '
+period:     '2022.10 - 2023.10'
 categories: ['service']
 url:        '/fitgo/'
 eyecatch:   '/assets/images/posts/2022/fitgo/eyecatch.png'

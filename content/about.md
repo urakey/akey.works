@@ -35,7 +35,8 @@ Service Designer
 サービスおよびコーポレートを含む社内で発生する全てのデザインを担当。  
 2021年、執行役員CBO (Chief Branding Officer) に就任。
 
-2022年よりフリーランスのDesignerとして活動。2023年7月に株式会社メルカリに再入社し、現在にいたる。
+2022年よりフリーランスのDesignerとして活動。  
+2023年7月に株式会社メルカリに再入社し、メルカリ ハロの立ち上げに1人目のDesignerとして参画。現在にいたる。
 
 {{% section class="notes" %}}
 
@@ -73,5 +74,4 @@ akey[at]chocolateboard.net ヘメールしていただくか、[X](https://twitt
 - [GitHub Pages](https://pages.github.com/)
 - [Hugo](https://gohugo.io/)
 - [gulp.js](http://gulpjs.com/)
-- [three.js](https://threejs.org/)
 {{% /section %}}

@@ -1,7 +1,7 @@
 ---
 date:       2017-05-08
 title:      'Mercari KAURU'
-period:     '2017 - 2018.12'
+period:     '2017.01 - 2018.12'
 categories: ['service']
 url:        '/mercari-kauru/'
 eyecatch:   '/assets/images/posts/2017/mercari-kauru/eyecatch.png'

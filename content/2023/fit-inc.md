@@ -1,7 +1,7 @@
 ---
 date:       2023-05-23
 title:      'FiT, Inc.'
-period:     '2023.05 - '
+period:     '2023.05'
 categories: ['branding']
 url:        '/fit-inc/'
 eyecatch:   '/assets/images/posts/2023/fit-inc/eyecatch.png'

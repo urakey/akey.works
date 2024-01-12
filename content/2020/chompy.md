@@ -1,7 +1,7 @@
 ---
 date:       2020-02-10
 title:      'Chompy'
-period:     '2019 - 2022.07'
+period:     '2019.07 - 2022.07'
 categories: ['branding']
 url:        '/chompy/'
 eyecatch:   '/assets/images/posts/2020/chompy/eyecatch.png'

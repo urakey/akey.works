@@ -10,7 +10,7 @@ figure2:    '/assets/images/posts/2021/chompy-inc/image-2.jpg'
 figure3:    '/assets/images/posts/2021/chompy-inc/image-3.jpg'
 ---
 
-社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新を担当。  
+社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新 (デザイン・実装) を担当。  
 執行役員CBO (Chief Branding Officer) に就任しました。
 
 {{% section class="notes" %}}

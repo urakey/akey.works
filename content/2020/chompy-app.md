@@ -1,7 +1,7 @@
 ---
 date:       2020-02-10
 title:      'Chompy App'
-period:     '2019 - 2022.07'
+period:     '2019.07 - 2022.07'
 categories: ['service']
 url:        '/chompy-app/'
 eyecatch:   '/assets/images/posts/2020/chompy-app/eyecatch.png'
@@ -11,4 +11,4 @@ figure3:    '/assets/images/posts/2020/chompy-app/image-3.png'
 ---
 
 フードデリバリーサービス「Chompy」のお客さま向けアプリ。  
-要件定義・仕様策定を含めたDesign全般を担当しました。
+PM + Designerとして要件定義・仕様策定を含めたDesign全般を担当しました。
