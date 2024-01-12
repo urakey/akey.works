@@ -43,9 +43,9 @@
 }
 
 .articleListItem__title {
-  @include fontSize(18);
+  @include fontSize(16);
 
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 
   display: flex;
@@ -60,9 +60,9 @@
     content: url($base-image + "/mark.svg");
   }
 
-  @media only screen and (max-width: $break-point-medium) {
-    @include fontSize(16);
-  }
+  // @media only screen and (max-width: $break-point-medium) {
+  //   @include fontSize(16);
+  // }
 }
 
 .articleListItem__period {

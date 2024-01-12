@@ -9,17 +9,17 @@ body {
   color: $base-primary-color;
   font-family: $base-font;
   line-height: 1.6;
-  padding: $margin-xxxl $margin-l;
+  padding: ($margin-xxxl + 64) $margin-l $margin-xxxl;
 
   @media only screen and (max-width: $break-point-large) {
-    padding: $margin-xxl $margin-m;
+    padding: ($margin-xxl + 64) $margin-m $margin-xxl;
   }
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(14);
-    padding: $margin-xl $margin-s;
+    padding: ($margin-xl + 100) $margin-s $margin-xl;
   }
   @media only screen and (max-width: $break-point-small) {
-    padding: $margin-l $margin-s;
+    padding: ($margin-l + 100) $margin-s $margin-l;
   }
 }
 
