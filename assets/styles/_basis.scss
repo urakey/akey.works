@@ -19,7 +19,7 @@ body {
     padding: ($margin-xl + 100) $margin-s $margin-xl;
   }
   @media only screen and (max-width: $break-point-small) {
-    padding: ($margin-l + 100) $margin-s $margin-l;
+    padding: ($margin-xl + 100) $margin-s $margin-l;
   }
 }
 
