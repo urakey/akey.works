@@ -18,6 +18,9 @@
     align-items: start;
     gap: $margin-l;
   }
+  @media only screen and (max-width: $break-point-small) {
+    gap: $margin-s;
+  }
 }
 
 .header__lower {
