@@ -20,9 +20,9 @@
     padding: $margin-l $margin-s 0;
   }
 
-  // @media only screen and (max-width: $break-point-small) {
-  //   padding: $margin-l $margin-s 0;
-  // }
+  @media only screen and (max-width: $break-point-small) {
+    padding: $margin-m $margin-s 0;
+  }
 }
 
 .header__upper {
@@ -36,6 +36,10 @@
     flex-direction: column;
     align-items: start;
     gap: $margin-xs;
+  }
+
+  @media only screen and (max-width: $break-point-small) {
+    gap: 0;
   }
 }
 
@@ -91,9 +95,10 @@
 
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(12);
-    // display: none;
     padding: 0;
-    // text-align: center;
+  }
+  @media only screen and (max-width: $break-point-small) {
+    @include fontSize(10);
   }
 }
 

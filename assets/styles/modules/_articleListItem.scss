@@ -60,9 +60,9 @@
     content: url($base-image + "/mark.svg");
   }
 
-  // @media only screen and (max-width: $break-point-medium) {
-  //   @include fontSize(16);
-  // }
+  @media only screen and (max-width: $break-point-small) {
+    margin: $margin-xxs 0 0;
+  }
 }
 
 .articleListItem__period {
