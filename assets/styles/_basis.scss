@@ -9,17 +9,17 @@ body {
   color: $base-primary-color;
   font-family: $base-font;
   line-height: 1.6;
-  padding: ($margin-xxxl + 64) $margin-l $margin-xxxl;
+  padding: ($margin-m * 5) $margin-l $margin-xxxl;
 
   @media only screen and (max-width: $break-point-large) {
-    padding: ($margin-xxl + 64) $margin-m $margin-xxl;
+    padding: ($margin-m * 5 - 30) $margin-m $margin-xxl;
   }
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(14);
-    padding: ($margin-xl + 100) $margin-s $margin-xl;
+    padding: ($margin-m * 5 - 15) $margin-s $margin-xl;
   }
   @media only screen and (max-width: $break-point-small) {
-    padding: ($margin-xl + 100) $margin-s $margin-l;
+    padding: ($margin-m * 4 - 10) $margin-s $margin-l;
   }
 }
 
@@ -57,14 +57,14 @@ textarea {
 
 .contents {
   @include wrapper;
-  padding: $margin-xxxl 0;
+  padding: $margin-l 0 $margin-xxxl;
 
   @media only screen and (max-width: $break-point-large) {
-    padding: $margin-xxl 0;
+    padding: $margin-m 0 $margin-xxl;
   }
 
   @media only screen and (max-width: $break-point-medium) {
-    padding: $margin-xl 0;
+    padding: $margin-m 0 $margin-xl;
   }
 
   @media only screen and (max-width: $break-point-small) {

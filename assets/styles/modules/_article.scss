@@ -38,6 +38,7 @@
 
     @media only screen and (max-width: $break-point-large) {
       @include fontSize(22);
+      margin: $margin-m 0 0.5em;
     }
   }
 
