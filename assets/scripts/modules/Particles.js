@@ -29,15 +29,15 @@ var init = function() {
   var circleTexture   = new THREE.TextureLoader().load('/assets/images/three/circle.png');
   var triangleTexture = new THREE.TextureLoader().load('/assets/images/three/triangle.png');
   var parameters = {
-    circle: { size: 10, color: 0xf7f7f7, map: circleTexture, blending: THREE.NoBlending, transparent: true, alphaTest: .9 },
-    triangle: { size: 10, color: 0xeeeeee, map: triangleTexture, blending: THREE.NoBlending, transparent: true, alphaTest: .9 }
+    circle: { size: 10, color:0xf5f5f5, map: circleTexture, blending: THREE.NoBlending, transparent: true, alphaTest: .9 },
+    triangle: { size: 10, color: 0xDCFF07, map: triangleTexture, blending: THREE.NoBlending, transparent: true, alphaTest: .9 }
   };
 
-  var trianglesGeometry = createGeometry(100);
+  var trianglesGeometry = createGeometry(1000);
   var trianglesMaterial = new THREE.PointsMaterial(parameters.triangle);
   var triangles         = new THREE.Points(trianglesGeometry, trianglesMaterial);
 
-  var circlesGeometry = createGeometry(200);
+  var circlesGeometry = createGeometry(300);
   var circlesMaterial = new THREE.PointsMaterial(parameters.circle);
   var circles         = new THREE.Points(circlesGeometry, circlesMaterial);
 
