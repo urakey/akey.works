@@ -33,7 +33,7 @@ var init = function() {
     triangle: { size: 10, color: 0xDCFF07, map: triangleTexture, blending: THREE.NoBlending, transparent: true, alphaTest: .9 }
   };
 
-  var trianglesGeometry = createGeometry(1000);
+  var trianglesGeometry = createGeometry(200);
   var trianglesMaterial = new THREE.PointsMaterial(parameters.triangle);
   var triangles         = new THREE.Points(trianglesGeometry, trianglesMaterial);
 
