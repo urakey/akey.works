@@ -18,12 +18,14 @@
     &:hover {
       
       figure {
-        background-color: $accent-color-yellow;
+        // background-color: $accent-color-yellow;
       }
 
       img {
-        opacity: .95;
-        mix-blend-mode: multiply;
+        opacity: .6;
+        // opacity: .98;
+        // mix-blend-mode: multiply;
+        // mix-blend-mode: exclusion;
       }
 
       &::after {
