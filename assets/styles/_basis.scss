@@ -8,18 +8,23 @@ body {
   background: $base-background;
   color: $base-primary-color;
   font-family: $base-font;
-  line-height: 1.6;
-  padding: ($margin-m * 5) $margin-l $margin-xxxl;
+  font-optical-sizing: auto;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
 
-  @media only screen and (max-width: $break-point-large) {
-    padding: ($margin-m * 5 - 30) $margin-m $margin-xxl;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
   }
-  @media only screen and (max-width: $break-point-medium) {
-    @include fontSize(14);
-    padding: ($margin-m * 5 - 15) $margin-s $margin-xl;
-  }
-  @media only screen and (max-width: $break-point-small) {
-    padding: ($margin-m * 4 - 10) $margin-s $margin-l;
+
+  to {
+    opacity: 1;
   }
 }
 
@@ -57,17 +62,9 @@ textarea {
 
 .contents {
   @include wrapper;
-  padding: $margin-l 0 $margin-xxxl;
-
-  @media only screen and (max-width: $break-point-large) {
-    padding: $margin-m 0 $margin-xxl;
-  }
-
+  padding: $margin-contents-top 0 0;
+  
   @media only screen and (max-width: $break-point-medium) {
-    padding: $margin-m 0 $margin-xl;
-  }
-
-  @media only screen and (max-width: $break-point-small) {
-    padding: $margin-m 0;
+    padding: $margin-contents-top-s 0 0;
   }
 }

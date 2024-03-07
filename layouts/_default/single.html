@@ -2,30 +2,43 @@
 {{ partial "header.html" . }}
 
 <main class="main" role="main">
-  <article class="article" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <article class="article work" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
     <h1 class="article__title" itemprop="name">{{ .Title | safeHTML }}</h1>
-    <p class="article__period">{{ .Params.period }}</p>
-    <div class="article__body" itemprop="articleBody">
-      {{ .Content }}
-      <div class="article__figure">
+    
+    <div class="article__body work" itemprop="articleBody">
+      <div class="work__figures">
         {{ with .Params.eyecatch }}
         <figure> <img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
         {{ with .Params.figure1 }}
-          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
         {{ with .Params.figure2 }}
-          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
         {{ with .Params.figure3 }}
-          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
         {{ with .Params.figure4 }}
-          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
         {{ with .Params.figure5 }}
-          <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
+        <figure><img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image"></figure>
         {{ end }}
+      </div>
+      <div class="work__outline">
+        <div class="work__spec">
+          {{ with .Params.period }}
+            <div>{{ . }}</div>
+          {{ end }}
+          {{ with .Params.categories }}
+            <div>
+              {{ $item := . }}
+              {{ delimit $item " , " }}
+            </div>
+          {{ end }}
+        </div>
+        {{ .Content }}
       </div>
     </div>
   </article>

@@ -18,7 +18,7 @@
 ブランド刷新プロセスに参加し、コーポレートサイトのデザインおよびSTUDIOでの実装を担当しました。</p>
 <section class="notes">
 <ul>
-<li><a href="https://fitinc.jp/">Weisite</a></li>
+<li><a href="https://fitinc.jp/">FiT, Inc. (Weisite)</a></li>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000017.000071368.html">株式会社LifeCoach 「株式会社FiT」に社名変更</a></li>
 </ul>
 </section>
@@ -44,9 +44,10 @@
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/random-sound-collective/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2022/random-sound-collective/eyecatch.png" alt="" itemprop="image"></figure><p>ロゴ、および、イメージビジュアルを担当しました。</p>
-<section class="notes">
+<section class="related-links">
+  <h2>Related links</h2>
 <ul>
-<li><a href="https://rsc.xyz/">Weisite</a></li>
+<li><a href="https://rsc.xyz/">Random Sound Collective (Weisite)</a></li>
 </ul>
 </section>
 ]]></description>
@@ -71,7 +72,8 @@ Web版を立ち上げる際は、要件定義・仕様策定を含めたDesign�
       <guid>https://akey.works/chompy-for-partner/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/chompy-for-partner/eyecatch.png" alt="" itemprop="image"></figure><p>飲食小売ブランド向けのオリジナルアプリ。<br>
 PM + Designerとして要件定義・仕様策定を含めたDesign全般を担当しました。</p>
-<section class="notes">
+<section class="related-links">
+  <h2>Related links</h2>
 <ul>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000011.000062766.html">Chompy、ファンのスマホにお店を開店できる公式アプリ/WEB無料開設サービス「Chompy」のベータ版を提供開始</a></li>
 <li><a href="https://apps.apple.com/jp/developer/chompy-inc/id1489433616?see-all=i-phone-apps">App List (App Store)</a></li>
@@ -88,7 +90,8 @@ PM + Designerとして要件定義・仕様策定を含めたDesign全般を担�
       <guid>https://akey.works/chompy-inc/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2021/chompy-inc/eyecatch.png" alt="" itemprop="image"></figure><p>社名変更にともなうロゴ・名刺およびコーポレートサイトの刷新 (デザイン・実装) を担当。<br>
 執行役員CBO (Chief Branding Officer) に就任しました。</p>
-<section class="notes">
+<section class="related-links">
+  <h2>Related links</h2>
 <ul>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000010.000062766.html">Chompy（チョンピー）約7.8億円の資金調達完了　飲食小売店のさらなるエンパワーメントに向け、経営体制を強化し「第二創業期」始動</a></li>
 </ul>
@@ -117,7 +120,8 @@ PM + Designerとして要件定義・仕様策定を含めたDesign全般を担�
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2020/chompy/eyecatch.png" alt="" itemprop="image"></figure><p>フードデリバリーサービス「Chompy」のあらゆるコミュニケーションをデザインしました。</p>
 <p>サービスコンセプトにおいて「ひとの温もりを感じられる」という特色を大切にするための Wording Rules や Voice &amp; Tone を定義。<br>
 Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの接点すべてのライティングを担うことで「Chompyが話す言葉」としての資産をつくりました。</p>
-<section class="notes">
+<section class="related-links">
+  <h2>Related links</h2>
 <ul>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000001.000062766.html">フードデリバリーサービス「Chompy（チョンピー）」正式ローンチ・1時間前に注文するだけで送料無料「らくとく便」開始</a></li>
 <li><a href="https://prtimes.jp/main/html/rd/p/000000002.000062766.html">SYNと東急百貨店が協業し、実証実験開始 デパ地下グルメをアプリから注文、1時間以内にデリバリー 複数店舗の横断注文も可能</a></li>
@@ -176,13 +180,36 @@ PM + Designerとして要件定義・仕様策定を含めたDesign全般を担�
     </item>
   
     <item>
+      <title>こうしてぼくらは、書籍を売るアプリを作った 2.0.1</title>
+      <link>https://akey.works/techbookfest-4/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 UTC</pubDate>
+      <author>Aki FUKAYAMA (akey)</author>
+      <guid>https://akey.works/techbookfest-4/</guid>
+      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2018/techbookfest-4/eyecatch.jpg" alt="" itemprop="image"></figure><p>技術書典4で『こうしてぼくらは、書籍を売るアプリを作った 2.0.1』を頒布しました。<br>
+表紙のデザインを担当し、著者としても参加しています。</p>
+<section class="notes">
+<p>Writing: yudoufu, motokiee, tenntenn, toshinarin, operandoOS, kotazi, sawa-zen, beppyy, akey, konatsu, wataame, storz<br>
+Illustration: konatsu<br>
+Design: akey, wataame<br>
+Special Thanks: mhidaka, vvakame</p>
+</section>
+<section class="related-links">
+  <h2>Related links</h2>
+<ul>
+<li><a href="https://akey.works/assets/files/2018/kauru-book-akey.pdf">第8章 メルカリ カウルとSketchTool / @urakey（PDF）</a></li>
+</ul>
+</section>
+]]></description>
+    </item>
+  
+    <item>
       <title>Mercari</title>
       <link>https://akey.works/mercari/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 UTC</pubDate>
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/mercari/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2018/mercari/eyecatch.png" alt="" itemprop="image"></figure><p>PM + Designerとして新規事業企画立案をしながらカテゴリーグロース領域に従事。<br>
-その後、社内にUX Leadという役割を新設し、グループ全体でのデザイン品質の向上・担保に努める。</p>
+その後、社内にUX Leadという役割を新設し、グループ全体でのデザイン品質の向上・担保に努めました。</p>
 ]]></description>
     </item>
   
@@ -193,25 +220,11 @@ PM + Designerとして要件定義・仕様策定を含めたDesign全般を担�
       <author>Aki FUKAYAMA (akey)</author>
       <guid>https://akey.works/mercari-kauru/</guid>
       <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2017/mercari-kauru/eyecatch.png" alt="" itemprop="image"></figure><p>立ち上げからサービス終了まで、PM + Designerとして要件定義・仕様策定を含めたDesign全般を担当しました。</p>
-<section class="notes">
+<section class="related-links">
+  <h2>Related links</h2>
 <ul>
 <li><a href="https://about.mercari.com/press/news/articles/20170508_kauru/">「メルカリ アッテ」に続くメルカリ姉妹アプリ第2弾 エンタメ・ホビー特化のフリマアプリ「メルカリ カウル」を提供開始-メルカリと連携し本・CD・DVD/ブルーレイが「すぐ売れる」を実現-</a></li>
 <li><a href="https://about.mercari.com/press/news/articles/20181102_kauru_close/">「メルカリ カウル」サービス提供終了と機能移行について</a></li>
-</ul>
-</section>
-]]></description>
-    </item>
-  
-    <item>
-      <title>Mercari Atte</title>
-      <link>https://akey.works/mercari-atte/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 UTC</pubDate>
-      <author>Aki FUKAYAMA (akey)</author>
-      <guid>https://akey.works/mercari-atte/</guid>
-      <description><![CDATA[<figure><img src="https://akey.works/assets/images/posts/2016/mercari-atte/eyecatch.png" alt="" itemprop="image"></figure><p>メルカリ アッテのWebサイトリニューアルプロジェクトおよび、アプリ内キャンペーンLPの運用効率化などを担当しました。</p>
-<section class="notes">
-<ul>
-<li><a href="https://about.mercari.com/press/news/articles/20180316_atte_close/">「メルカリ アッテ」サービス提供終了のお知らせ</a></li>
 </ul>
 </section>
 ]]></description>

@@ -2,116 +2,204 @@
 //  Module: Article
 //==============================================================================
 
+.article {
+  @include wrapper;
+
+  padding: 0 $margin-12x;
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $margin-18x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-12x;
+
+    padding: 0 $margin-6x;
+  }
+}
+.article.work { // Specific Style: Work Detail
+  gap: $margin-12x;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-8x;
+  }
+}
+
 .article__title {
   @include fontSize(32);
 
-  font-weight: 700;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
   margin: 0;
 
-  @media only screen and (max-width: $break-point-large) {
-    @include fontSize(28);
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(24);
   }
 }
-
-.article__period {
-  font-weight: 500;
-  margin: 0;
+.article__title.work { // Specific Style: Work Detail
+  text-transform: none;
 }
 
 .article__body {
-  @include fontSize(14);
-  margin: $margin-m 0 0;
-
-  @media only screen and (max-width: $break-point-small) {
-    @include fontSize(12);
-    margin: $margin-s 0 0;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: $margin-18x;
 
   h2 {
     @include fontSize(24);
 
-    margin: $margin-l 0 0.5em;
-    font-weight: 700;
-    line-height: 1.2;
-
+    font-weight: 900;
+    line-height: 1;
     text-transform: uppercase;
-
-    @media only screen and (max-width: $break-point-large) {
-      @include fontSize(22);
-      margin: $margin-m 0 0.5em;
+    margin: 0 0 $margin-6x;
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(20);
     }
-  }
-
-  h3 {
-    @include fontSize(20);
-
-    margin: $margin-m 0 0.5em;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  h4 {
-    @include fontSize(18);
-
-    margin: $margin-m 0 0.5em;
-    font-weight: 600;
-    line-height: 1.2;
-  }
-
-  h5,
-  h6 {
-    @include fontSize(16);
-
-    margin: $margin-s 0 0.5em;
-    font-weight: 600;
-    line-height: 1.2;
   }
 
   p, ul {
-    margin: 0;
-  }
+    @include fontSize(14);
 
-  * + p,
-  * + ul {
-    margin-top: 1em;
+    font-weight: 500;
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(12);
+    }
   }
 
   ul {
-    list-style-type: square;
-    padding-inline-start: 24px;
+    list-style: circle;
+    margin: 0;
+    padding: 0 0 0 1em;
   }
-
-  strong {
-    font-weight: 600;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-12x;
   }
-
-  .notes {
-    font-size: 0.9em;
-    padding: $margin-s;
-    border: 1px solid $border-color;
-    margin: $margin-m 0;
-    background-color: $background-color;
-  }
-
-  .auxiliary {
-    font-size: 0.9em;
-    color: $base-secondary-color;
+}
+.article__body.work { // Specific Style: Work Detail
+  gap: $margin-8x;
+  flex-direction: row;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    flex-direction: column;
   }
 }
 
-.article__figure {
+// Specific Style: Work Detail
+.work__figures {
+  display: flex;
+  flex-direction: column;
+  gap: $margin-6x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-2x;
+  }
 
   figure {
-    margin: $margin-m 0 0;
-
-    @media only screen and (max-width: $break-point-small) {
-      margin: $margin-s 0 0;
-    }
+    margin: 0;
   }
 
   img {
     width: 100%;
     height: auto;
   }
+}
 
+.work__spec {
+  @include fontSize(16);
+
+  font-weight: 900;
+
+  display: flex;
+  flex-direction: column;
+  gap: $margin-1x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+    gap: 0;
+  }
+}
+
+.work__outline {
+  min-width: 400px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: $margin-12x;
+  
+  padding: $margin-12x 0;
+  
+  @media only screen and (max-width: $break-point-large) {
+    min-width: 40%;
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    min-width: 100%;
+    gap: $margin-8x;
+    padding: 0;
+  }
+}
+
+.work__outline > p {
+  @include fontSize(14);
+
+  font-weight: 600;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(12);
+  }
+}
+
+.work__outline > .notes {
+  @include fontSize(12);
+
+  font-weight: 300;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(10);
+  }
+}
+
+.work__outline > .related-links {
+  padding: $margin-12x 0 0;
+  border-top: 1px $border-color solid;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-8x 0 0;
+  }
+}
+
+.work__outline>.related-links h2 {
+  @include fontSize(16);
+
+  font-weight: 900;
+  margin: 0 0 $margin-1x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+  }
+}
+
+.work__outline > .related-links ul {
+  @include fontSize(12);
+
+  font-weight: 300;
+  text-transform: uppercase;
+  list-style: circle;
+
+  display: flex;
+  flex-direction: column;
+  gap: $margin-1x;
+
+  margin: 0;
+  padding: 0 0 0 1em;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(10);
+    gap: 0;
+  }
 }

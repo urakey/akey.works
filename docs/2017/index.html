@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://akey.works/assets/images/meta/ogp.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
   <link href="/assets/styles/style.css" rel="stylesheet">
 </head>
 
@@ -55,8 +55,10 @@
   </header>
   <div class="contents">
     <main class="main" role="main">
-      <h2 class="main__title"> 2017s </h2>
-      <ul class="articleList">
+      <div class="article">
+        <h1 class="article__title" itemprop="name"> 2017s </h1>
+      </div>
+      <ul class="articleList list">
         <li class="articleList__item">
           <article class="articleListItem" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
             <a href="https://akey.works/mercari-kauru/" itemprop="url">
@@ -64,27 +66,11 @@
                 <img class="Lazy" src="/assets/images/eyecatch.png" data-original="/assets/images/posts/2017/mercari-kauru/eyecatch.png" alt="" itemprop="image">
               </figure>
               <h1 class="articleListItem__title" itemprop="name">Mercari KAURU</h1>
-              <p class="articleListItem__period" itemprop="articleBody">2017.01 - 2018.12</p>
             </a>
           </article>
         </li>
       </ul>
     </main>
-    <div class="sidebar">
-      <nav>
-        <h2 class="sidebar__title">Archives</h2>
-        <ul class="sidebar__list">
-          <li><a href="/2023/">2023</a></li>
-          <li><a href="/2022/">2022</a></li>
-          <li><a href="/2021/">2021</a></li>
-          <li><a href="/2020/">2020</a></li>
-          <li><a href="/2019/">2019</a></li>
-          <li><a href="/2018/">2018</a></li>
-          <li><a href="/2017/">2017</a></li>
-          <li><a href="/2016/">2016</a></li>
-        </ul>
-      </nav>
-    </div>
   </div>
   <footer class="footer" role="contentinfo">
     <p class="footer__copyright">&copy; Aki FUKAYAMA (akey).</p>
@@ -92,9 +78,7 @@
   </footer>
   <script src="/assets/scripts/vendor/jquery.min.js"></script>
   <script src="/assets/scripts/vendor/jquery.lazyload.min.js"></script>
-  <script src="/assets/scripts/vendor/three.min.js"></script>
   <script src="/assets/scripts/bundle.js"></script>
-  <div id="container" style="position: fixed; top: 0; left: 0; z-index: -1;"></div>
 </body>
 
 </html>

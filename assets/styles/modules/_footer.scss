@@ -9,30 +9,44 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  gap: $margin-xs;
-
-  p {
-    margin: 0;
-  }
-
-  @media only screen and (max-width: $break-point-large) {
+  gap: $margin-6x;
+  
+  padding: $margin-footer-top $margin-12x $margin-20x;
+  
+  @media only screen and (max-width: $break-point-medium) {
     flex-direction: column;
-    align-items: initial;
-    gap: $margin-xxs;
+    align-items: start;
+    gap: $margin-2x;
+    padding: $margin-20x 0;
   }
 }
 
 .footer__copyright {
-  font-weight: 600;
+  @include fontSize(14);
+  
+  font-weight: 500;
+  
+  margin: 0;
+  padding: 0 $margin-12x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(12);
+    
+    padding: 0 $margin-6x;
+  }
 }
 
 .footer__misc {
   @include fontSize(12);
   
   font-weight: 400;
+  
+  margin: 0;
+  padding: 0 $margin-12x;
 
-  @media only screen and (max-width: $break-point-small) {
+  @media only screen and (max-width: $break-point-medium) {
     @include fontSize(10);
+    
+    padding: 0 $margin-6x;
   }
 }

@@ -4,26 +4,34 @@
 
 .articleList {
   list-style: none;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
+  column-gap: 2px;
+  row-gap: $margin-12x;
+ 
   margin: 0;
   padding: 0;
 
-  column-gap: 0;
-  row-gap: $margin-m;
+  @media only screen and (max-width: $break-point-medium) {
+    column-gap: 0;
+  }
+}
+.articleList.list {
+  margin: $margin-18x 0 0;
   
   @media only screen and (max-width: $break-point-medium) {
-    row-gap: $margin-xs;
+    margin: $margin-12x 0 0;
   }
 }
 
 .articleList__item {
-  width: calc(100% / 3);
+  width: calc((100% - 4px) / 3);
 
   @media only screen and (max-width: $break-point-large) {
-    width: calc(100% / 2);
+    width: calc((100% - 2px) / 2);
   }
   @media only screen and (max-width: $break-point-medium) {
     width: calc(100% / 1);

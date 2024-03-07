@@ -16,20 +16,23 @@
     }
     
     &:hover {
+
+      h1 {
+          background-size: 16px;
+          transition-duration: .3s;
+          transition-property: background-size;
+          transition-timing-function: ease;
+        }
       
       figure {
-        // background-color: $accent-color-yellow;
+        background-color: $accent-color-yellow;
       }
 
       img {
-        opacity: .6;
-        // opacity: .98;
-        // mix-blend-mode: multiply;
-        // mix-blend-mode: exclusion;
-      }
-
-      &::after {
-        transform: scaleX(1);
+        opacity: .8;
+        transition-duration: .3s;
+        transition-property: opacity;
+        transition-timing-function: ease;
       }
     }
   }
@@ -45,36 +48,21 @@
 }
 
 .articleListItem__title {
-  @include fontSize(16);
+  @include fontSize(14);
 
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  line-height: 1.4;
-  margin: $margin-xs 0 0;
-  padding: 0px;
-  gap: $margin-xxs;
+  align-items: center;
+  gap: $margin-1x;
 
-  &::before {
-    content: url($base-image + "/mark.svg");
-  }
+  margin: $margin-6x 0 0;
+  padding: 0 $margin-6x;
 
-  @media only screen and (max-width: $break-point-small) {
-    margin: $margin-xxs 0 0;
-  }
-}
-
-.articleListItem__period {
-  @include fontSize(12);
-  
-  font-weight: 500;
-  margin: 0;
-  padding: 0 0 0 $margin-s;
-
-  @media only screen and (max-width: $break-point-medium) {
-    @include fontSize(11);
-  }
+  background-image: url($base-image + "/mark.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 8px;
 }
