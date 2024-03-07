@@ -3,8 +3,6 @@
 //==============================================================================
 
 // Base Colors
-$key-gold:      #b0af96;
-$key-gray:      #a7a7a7;
 $accent-color-yellow:      #dcff07;
 $neutral-color-black:      #111111;
 $neutral-color-dark-gray:  #333333;
@@ -16,7 +14,7 @@ $neutral-color-white:      #ffffff;
 
 // Content Base Setting
 $base-image: "/assets/images";
-$base-font: "Poppins", sans-serif;
+$base-font: "Hanken Grotesk", sans-serif;
 $code-font: "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, monospace;
 
 $base-background:         $neutral-color-white;
@@ -28,16 +26,27 @@ $base-link-color-visited: $neutral-color-black;
 
 $border-color:     $neutral-color-light-gray;
 $background-color: $neutral-color-pale-gray;
-$break-point-large:  1200px;
-$break-point-medium: 580px;
+$break-point-large:  980px;
+$break-point-medium: 680px;
 $break-point-small:  400px;
 
-// Other
-$margin-xxxl:  112px;
-$margin-xxl:   96px;
-$margin-xl:    80px;
-$margin-l:     64px;
-$margin-m:     40px;
-$margin-s:     24px;
-$margin-xs:    16px;
-$margin-xxs:    8px;
+// Spacing
+$margin-1x:  4px;
+$margin-2x:  8px;
+$margin-4x:  16px;
+$margin-6x:  24px;
+$margin-8x:  32px;
+$margin-10x: 40px;
+$margin-12x: 48px;
+$margin-18x: 72px;
+$margin-20x: 80px;
+
+// Specific Spacing: Default
+$margin-header-top:   104px;
+$margin-footer-top:   160px;
+$margin-contents-top: 280px;
+
+// Specific Spacing: Medium & Small
+$margin-header-top-s:   104px;
+$margin-footer-top-s:   160px;
+$margin-contents-top-s: 280px;

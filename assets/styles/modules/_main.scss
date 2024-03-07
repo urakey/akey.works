@@ -3,64 +3,43 @@
 //==============================================================================
 
 .main {
-  width: 100%;
-  margin-bottom: $margin-xxxl;
+  @include wrapper;
 
-  @media only screen and (max-width: $break-point-large) {
-    margin-bottom: $margin-xxl;
-  }
+  width: 100%;
+  padding: 0 $margin-12x;
 
   @media only screen and (max-width: $break-point-medium) {
-    margin-bottom: $margin-xl;
-  }
-
-  @media only screen and (max-width: $break-point-small) {
-    margin-bottom: $margin-l;
-  }
-}
-
-.main__title {
-  @include fontSize(32);
-
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0 0 $margin-m;
-
-  @media only screen and (max-width: $break-point-large) {
-    @include fontSize(28);
-  }
-    
-  @media only screen and (max-width: $break-point-small) {
-    margin: 0 0 $margin-s;
+    padding: 0;
   }
 }
 
 .main__pagination {
-  font-weight: 600;
+  font-weight: 500;
 
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  gap: $margin-s;
+  gap: $margin-6x;
+  
+  padding: $margin-20x $margin-12x 0;
 
   .nolinks {
     color: $neutral-color-soft-gray;
   }
 
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-12x $margin-6x 0;
+  }
+
   &--prev,
   &--next {
-    @include fontSize(24);
+    @include fontSize(20);
     
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-  
-    @media only screen and (max-width: $break-point-large) {
-      @include fontSize(20);
-    }
   
     @media only screen and (max-width: $break-point-medium) {
       @include fontSize(18);
     }
   }
 }
-

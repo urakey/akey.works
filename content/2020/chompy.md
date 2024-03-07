@@ -2,13 +2,14 @@
 date:       2020-02-10
 title:      'Chompy'
 period:     '2019.07 - 2022.07'
-categories: ['branding']
+categories: ['branding', 'service']
 url:        '/chompy/'
 eyecatch:   '/assets/images/posts/2020/chompy/eyecatch.png'
 figure1:   '/assets/images/posts/2020/chompy/image-1.jpg'
 figure2:   '/assets/images/posts/2020/chompy/image-2.jpg'
 figure3:   '/assets/images/posts/2020/chompy/image-3.jpg'
 figure4:   '/assets/images/posts/2020/chompy/image-4.jpg'
+figure5:   '/assets/images/posts/2020/chompy/image-5.jpg'
 ---
 
 フードデリバリーサービス「Chompy」のあらゆるコミュニケーションをデザインしました。  
@@ -16,7 +17,7 @@ figure4:   '/assets/images/posts/2020/chompy/image-4.jpg'
 サービスコンセプトにおいて「ひとの温もりを感じられる」という特色を大切にするための Wording Rules や Voice & Tone を定義。  
 Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの接点すべてのライティングを担うことで「Chompyが話す言葉」としての資産をつくりました。
 
-{{% section class="notes" %}}
+{{% work-related-links %}}
 - [フードデリバリーサービス「Chompy（チョンピー）」正式ローンチ・1時間前に注文するだけで送料無料「らくとく便」開始][def1]
 - [SYNと東急百貨店が協業し、実証実験開始 デパ地下グルメをアプリから注文、1時間以内にデリバリー 複数店舗の横断注文も可能][def2]
 - [フードデリバリーサービスChompy（チョンピー）、配達可能エリアを渋谷駅半径4.5km圏内に拡大9月中は人気店舗が30%オフとなる「Chompyフェス」開催][def3]
@@ -25,7 +26,7 @@ Push通知、お知らせ、キャンペーン、UIなど、ユーザーとの�
 - [【自宅で過ごす年末年始を応援！】フードデリバリーサービスChompy（チョンピー）、忘年会・おせちをデリバリーで楽しめるキャンペーン実施][def6]
 - [フードデリバリーサービスChompy（チョンピー）配達可能エリアを拡大、新たに、新宿区、目黒区全域及び世田谷区、千代田区、品川区、中野区、杉並区の一部で利用可能に][def7]
 - [フードデリバリーサービスChompy（チョンピー）豊島区、中央区、文京区、港区、世田谷区などでエリア拡大][def8]
-{{% /section %}}
+{{% /work-related-links %}}
 
 [def1]: https://prtimes.jp/main/html/rd/p/000000001.000062766.html
 [def2]: https://prtimes.jp/main/html/rd/p/000000002.000062766.html

@@ -5,6 +5,7 @@ type:  'page'
 ---
 
 {{% section id="profile" %}}
+
 ## Aki FUKAYAMA
 Service Designer  
   
@@ -22,6 +23,7 @@ Service Designer
 {{% /section %}}
 
 {{% section id="career" %}}
+
 ## Career
 
 制作会社、株式会社ディー・エヌ・エーにて、複数の新規プロダクト開発を経験。
@@ -38,36 +40,18 @@ Service Designer
 2022年よりフリーランスのDesignerとして活動。  
 2023年7月に株式会社メルカリに再入社し、メルカリ ハロの立ち上げに1人目のDesignerとして参画。現在にいたる。
 
-{{% section class="notes" %}}
-
-{{% career affiliation="Mercari, Inc." period="July 2023 -" role="Designer" %}}
-
-{{% career affiliation="FiT, Inc." period="December 2022 - June 2023" role="Designer" %}}
-
-{{% career affiliation="Freelance" period="Augsut 2022 - November 2022" role="Designer" %}}
-
-{{% career affiliation="Chompy, Inc." period="July 2019 - July 2022" role="Chief Branding Officer, Designer, PM" %}}
-
-{{% career affiliation="Mercari, Inc." period="April 2018 - October 2019" role="UX Lead, Designer, PM" %}}
-
-{{% career affiliation="Souzoh, Inc." period="Augsut 2016 - March 2018" role="UX Lead, Designer, PM" %}}
-
-{{% career affiliation="DeNA, Inc." period="2013 - 2016" role="Designer, Front-end Developer" %}}
-
-{{% career affiliation="NAGI, Inc." period="2009 - 2013" role="Designer, Front-end Developer" %}}
-
-{{% career affiliation="A website design company" period="2006 - 2009" role="Designer, Front-end Developer" %}}
-
-{{% /section %}}
 {{% /section %}}
 
 {{% section id="contact" %}}
+
 ## Getting in touch.
 
 akey[at]chocolateboard.net ヘメールしていただくか、[X](https://twitter.com/urakey) からご連絡ください ;D
+
 {{% /section %}}
 
 {{% section id="recipe" %}}
+
 ## Website recipe.
 
 - [GitHub](https://github.com/)
@@ -75,4 +59,5 @@ akey[at]chocolateboard.net ヘメールしていただくか、[X](https://twitt
 - [Hugo](https://gohugo.io/)
 - [gulp.js](http://gulpjs.com/)
 - [three.js](https://threejs.org/)
+
 {{% /section %}}

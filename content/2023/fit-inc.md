@@ -2,7 +2,7 @@
 date:       2023-05-23
 title:      'FiT, Inc.'
 period:     '2023.05'
-categories: ['branding']
+categories: ['branding', 'corporate']
 url:        '/fit-inc/'
 eyecatch:   '/assets/images/posts/2023/fit-inc/eyecatch.png'
 figure1:    '/assets/images/posts/2023/fit-inc/image-1.png'
@@ -12,7 +12,7 @@ figure1:    '/assets/images/posts/2023/fit-inc/image-1.png'
 ブランド刷新プロセスに参加し、コーポレートサイトのデザインおよびSTUDIOでの実装を担当しました。
 
 {{% section class="notes" %}}
-- [Weisite][def1]
+- [FiT, Inc. (Weisite)][def1]
 - [株式会社LifeCoach 「株式会社FiT」に社名変更][def2]
 {{% /section %}}
 

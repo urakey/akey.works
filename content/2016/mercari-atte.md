@@ -7,10 +7,10 @@ url:        '/mercari-atte/'
 eyecatch:   '/assets/images/posts/2016/mercari-atte/eyecatch.png'
 ---
 
-メルカリ アッテのWebサイトリニューアルプロジェクトおよび、アプリ内キャンペーンLPの運用効率化などを担当しました。
+メルカリ アッテのWebサイトリニューアルプロジェクトおよび、アプリ内キャンペーンLPの運用効率化などのDesign全般を担当しました。
 
-{{% section class="notes" %}}
+{{% work-related-links %}}
 - [「メルカリ アッテ」サービス提供終了のお知らせ][def]
-{{% /section %}}
+{{% /work-related-links %}}
 
 [def]: https://about.mercari.com/press/news/articles/20180316_atte_close/

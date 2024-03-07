@@ -9,19 +9,11 @@
   top: 0;
   left: 0;
   z-index: 1;
-  padding: $margin-xxxl $margin-l 0;
-
-  @media only screen and (max-width: $break-point-large) {
-    padding: $margin-xxl $margin-m 0;
-  }
+  
+  padding: $margin-header-top $margin-12x 0;
 
   @media only screen and (max-width: $break-point-medium) {
-    @include fontSize(14);
-    padding: $margin-l $margin-s 0;
-  }
-
-  @media only screen and (max-width: $break-point-small) {
-    padding: $margin-m $margin-s 0;
+      padding: $margin-header-top-s 0 0;
   }
 }
 
@@ -30,75 +22,60 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: $margin-s;
+  gap: $margin-6x;
+  
+  padding: 0 $margin-12x;
   
   @media only screen and (max-width: $break-point-medium) {
     flex-direction: column;
     align-items: start;
-    gap: $margin-xxs;
-  }
-
-  @media only screen and (max-width: $break-point-small) {
-    gap: $margin-xxs;
+    gap: $margin-4x;
+    padding: 0 $margin-6x;
   }
 }
 
 .header__lower {
-  margin: $margin-xxs 0 0 0;
+  margin: $margin-6x 0 0 0;
+  padding: 0 $margin-12x;
 
   @media only screen and (max-width: $break-point-medium) {
-      margin: 0;
-    }
+    margin: $margin-4x 0 0 0;
+    padding: 0 $margin-6x;
+  }
 }
 
 .header__id {
-  @include fontSize(48);
-  
   margin: 0;
-  line-height: 1.2;
+  line-height: 1;
 
   a {
-    text-decoration: none;
-    text-transform: uppercase;
+    display: block;
+    width: 174px;
+    text-indent: -7777px;
+    background-image: url($base-image + "/logo.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
 
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 0px;
-    gap: $margin-xxs;
-    // width: 240px;
-    // text-indent: -7777px;
-    // background-image: url($base-image + "/logo.svg");
-    // background-position: left center;
-    // background-repeat: no-repeat;
-    // background-size: contain;
-
-    &::before {
-      content: url($base-image + "/mark.svg");
+    &:hover {
+      background-image: url($base-image + "/logo-hover.svg");
+    }
+ 
+    @media only screen and (max-width: $break-point-medium) {
+      width: 130px;
     }
   }
  
-  @media only screen and (max-width: $break-point-large) {
-    @include fontSize(40);
-  }
 }
 
 .header__description {
   @include fontSize(14);
 
   font-weight: 500;
-  margin: 0;
-  padding-left: $margin-s;
-
-  // @media only screen and (max-width: $break-point-large) {
-  //   padding-left: 42px;
-  // }
+  line-height: 1;
+  text-transform: uppercase;
 
   @media only screen and (max-width: $break-point-medium) {
-    @include fontSize(12);
-    padding: 0;
-  }
-  @media only screen and (max-width: $break-point-small) {
     @include fontSize(10);
   }
 }
@@ -106,48 +83,40 @@
 .header__navigation {
 
   ul {
+    list-style: none;
+    line-height: 1;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
+    gap: $margin-8x;
+
     margin: 0;
     padding: 0px;
-    gap: $margin-s;
+
+    @media only screen and (max-width: $break-point-medium) {
+      gap: $margin-4x;
+    }
   }
 
   li {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 0px;
-    gap: $margin-xxs;
+    line-height: 1;
   }
 
   a {
     @include fontSize(32);
 
-    font-weight: 700;
+    font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
 
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 0px;
-    gap: $margin-xxs;
-
     &.current {
       text-decoration: line-through;
-
-      &::before {
-        content: url($base-image + "/mark.svg");
-      }
     }
-
-    @media only screen and (max-width: $break-point-large) {
-      @include fontSize(24);
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(16);
     }
-
-    @media only screen and (max-width: $break-point-medium) {}
   }
 }

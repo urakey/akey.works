@@ -12,8 +12,8 @@ figure2:    '/assets/images/posts/2022/random-sound-collective/image-2.png'
 
 ロゴ、および、イメージビジュアルを担当しました。
 
-{{% section class="notes" %}}
-- [Weisite][def]
-{{% /section %}}
+{{% work-related-links %}}
+- [Random Sound Collective (Weisite)][def]
+{{% /work-related-links %}}
 
 [def]: https://rsc.xyz/
