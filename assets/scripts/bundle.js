@@ -55,5 +55,3 @@ require('./plugins/jquery.smoothScroll');
   });
 
 })(jQuery);
-
-require('./modules/Particles');
