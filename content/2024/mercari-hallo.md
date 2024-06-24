@@ -5,6 +5,8 @@ period:     '2023.04 - '
 categories: ['branding', 'service']
 url:        '/mercari-hallo/'
 eyecatch:   '/assets/images/posts/2024/mercari-hallo/eyecatch.png'
+figure1:    '/assets/images/posts/2024/mercari-hallo/image-1.jpg'
+figure2:    '/assets/images/posts/2024/mercari-hallo/image-2.jpg'
 ---
 
 立ち上げ時に必要なすべてのデザインを担当しました。
