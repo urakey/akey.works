@@ -9,12 +9,12 @@ figure1:    '/assets/images/posts/2024/mercari-hallo/image-1.jpg'
 figure2:    '/assets/images/posts/2024/mercari-hallo/image-2.jpg'
 ---
 
-立ち上げ時に必要なすべてのデザインを担当しました。  
-サービス名、サービスロゴ、プロダクトコンセプトそれぞれのリードおよび定義と言語化。  
+立ち上げ時に必要なすべてのデザインを担当しました。メルカリ ハロの名付け親です。  
+サービス名、サービスロゴ、プロダクトコンセプトそれぞれのリードおよび定義と言語化。   
 各種プロダクトおよびサービスLPなどの要件定義・仕様策定を含めたDesign全般を担当。
 
 立ち上げプロセスの中で、Design Guideline、Design System、Wording Rules なども並行して定義。  
-Design Team を組成。
+1人Designerでの立ち上げからチームでDesignできる基盤づくりを実施。Design Team を組成。
 
 {{% work-related-links %}}
 - [メルカリ ハロ (Weisite)][def1]
