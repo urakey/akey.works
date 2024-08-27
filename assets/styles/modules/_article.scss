@@ -148,6 +148,7 @@
   @include fontSize(14);
 
   font-weight: 600;
+  margin: 0;
 
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(12);
@@ -158,6 +159,9 @@
   @include fontSize(12);
 
   font-weight: 300;
+
+  p:first-child { margin-top: 0; }
+  p:last-child { margin-bottom: 0; }
 
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(10);
@@ -177,7 +181,7 @@
   @include fontSize(16);
 
   font-weight: 900;
-  margin: 0 0 $margin-1x;
+  margin: 0 0 $margin-2x;
 
   @media only screen and (max-width: $break-point-medium) {
     @include fontSize(14);
