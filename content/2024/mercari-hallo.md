@@ -7,13 +7,17 @@ url:        '/mercari-hallo/'
 eyecatch:   '/assets/images/posts/2024/mercari-hallo/eyecatch.png'
 figure1:    '/assets/images/posts/2024/mercari-hallo/image-1.jpg'
 figure2:    '/assets/images/posts/2024/mercari-hallo/image-2.jpg'
+figure3:    '/assets/images/posts/2024/mercari-hallo/image-3.png'
+figure4:    '/assets/images/posts/2024/mercari-hallo/image-4.png'
 ---
 
 立ち上げ時に必要なすべてのデザインを担当しました。メルカリ ハロの名付け親です。  
 サービス名、サービスロゴ、プロダクトコンセプトそれぞれのリードおよび定義と言語化。   
 各種プロダクトおよびサービスLPなどの要件定義・仕様策定を含めたDesign全般を担当。
 
-立ち上げプロセスの中で、Design Guideline、Design System、Wording Rules なども並行して定義。  
+立ち上げプロセスの中で、Design Guideline、Design System、Wording Rules なども並行して定義。 
+FigmaでLocal variablesを定義し、初期からLight Mode / Dark Modeの設計を導入。
+
 1人Designerでの立ち上げからチームでDesignできる基盤づくりを実施。Design Team を組成。
 
 {{% work-related-links %}}
