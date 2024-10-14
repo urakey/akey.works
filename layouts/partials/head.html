@@ -18,7 +18,7 @@
 {{ end }}
 <meta name="description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="viewport" content="width=device-width">
-<link rel="author" href="{{ .Site.Author.url }}">
+<link rel="author" href="{{ .Site.Params.Author.url }}">
 <link rel="icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/images/meta/apple-touch-icon.png">
 <link rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
