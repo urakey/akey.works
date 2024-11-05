@@ -15,8 +15,7 @@ figure4:    '/assets/images/posts/2024/mercari-hallo/image-4.png'
 サービス名、サービスロゴ、プロダクトコンセプトそれぞれのリードおよび定義と言語化。   
 各種プロダクトおよびサービスLPなどの要件定義・仕様策定を含めたDesign全般を担当。
 
-立ち上げプロセスの中で、Design Guideline、Design System、Wording Rules なども並行して定義。  
-初期からLight Mode / Dark Modeのカラー定義や数値周りの定義をしていたため、予めFigmaのLocal variablesを利用する設計を実施。
+立ち上げプロセスの中で、Design Guideline、Design System、Wording Rules なども並行して定義。Design Systemのカラーや数値周りはFigmaのLocal variablesを活用するカタチで変数を設計・定義しています。
 
 1人Designerでの立ち上げからチームでDesignできる基盤づくりを実施。Design Team を組成。
 

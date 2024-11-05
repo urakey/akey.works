@@ -43,7 +43,9 @@ Service Designer
 2021年、執行役員CBO (Chief Branding Officer) に就任。
 
 2022年よりフリーランスのDesignerとして活動。  
-2023年4月より株式会社メルカリにて、1人目のDesignerとして『メルカリ ハロ』を立ち上げ、現在に至る。
+2023年4月より株式会社メルカリにて、1人目のDesignerとして『メルカリ ハロ』を立ち上げ、デザインチームを組成。
+
+2024年11月、NOT A HOTELに参画。現在に至る。
 
 {{% /section %}}
 
