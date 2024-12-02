@@ -19,7 +19,7 @@ figure4:    '/assets/images/posts/2024/mercari-hallo/image-4.png'
 
 1人Designerでの立ち上げからチームでDesignできる基盤づくりを実施。Design Team を組成。
 
-[Google Play ベスト オブ 2024 社会貢献部門 大賞][def88]{:target="_blank"}
+[Google Play ベスト オブ 2024 社会貢献部門 大賞][def88]
 
 {{% work-related-links %}}
 - [メルカリ ハロ (Weisite)][def1]
