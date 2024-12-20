@@ -2,15 +2,6 @@
 <html>
 <head>
 <meta charset="utf-8">
-{{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WP95V4HTKC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-WP95V4HTKC');
-</script>
 {{ if .IsHome }}
 <title>{{ .Site.Title }}</title>
 {{ else }}
@@ -26,5 +17,14 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ partial "ogp.html" . }}
 {{ partial "styles.html" . }}
+{{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WP95V4HTKC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-WP95V4HTKC');
+</script>
 </head>
 <body role="document">
