@@ -9,7 +9,7 @@ type:  'page'
 
 ## Aki FUKAYAMA
 
-Service Designer  
+Designer  
   
 岩手県盛岡市出身。東京都在住。実家は仙台。東京モード学園スタイリスト学科卒。  
 数年間アパレル業界をふらふらしてからサービスのデザインをするようになりました。
