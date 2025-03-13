@@ -1,0 +1,15 @@
+<header class="header" role="banner">
+  <div class="header__upper">
+    <h1 class="header__id"><a href="/">{{ .Site.Title }}</a></h1>
+    <nav class="header__navigation" role="navigation">
+      <ul>
+        <li><a href="/"{{ if .IsHome }} class="current"{{ end }}>Works</a></li>
+        <li><a href="/about/"{{ if eq .Title "About" }} class="current"{{ end }}>About</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="header__lower">
+    <p class="header__description">{{ .Site.Params.description }}</p>
+  </div>
+</header>
+<div class="contents">
