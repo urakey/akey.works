@@ -1,0 +1,4 @@
+<figure>
+  {{ if .Get "src" }}<img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ .Get "src" }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}{{ with .Get "width" }} width="{{ . }}"{{ end }}>{{ end }}
+  {{ with .Get "figcaption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

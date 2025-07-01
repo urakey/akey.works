@@ -1,0 +1,70 @@
+//==============================================================================
+//  Basis
+//==============================================================================
+
+body {
+  @include fontSize(16);
+
+  background: $base-background;
+  color: $base-primary-color;
+  font-family: $base-font;
+  font-optical-sizing: auto;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  color: $base-link-color;
+
+  &:hover {
+    color: $base-link-color-hover;
+  }
+}
+
+img {
+  vertical-align: bottom;
+}
+
+figure {
+  margin: 0;
+}
+
+input,
+textarea {
+  @include fontSize(16);
+
+  outline: none;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+  }
+}
+
+::selection {
+  background: $accent-color-yellow;
+}
+
+.contents {
+  @include wrapper;
+  padding: $margin-contents-top 0 0;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-contents-top-s 0 0;
+  }
+}
