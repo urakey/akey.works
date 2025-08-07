@@ -1,0 +1,209 @@
+//==============================================================================
+//  Module: Article
+//==============================================================================
+
+.article {
+  @include wrapper;
+
+  padding: 0 $margin-12x;
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $margin-18x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-12x;
+
+    padding: 0 $margin-6x;
+  }
+}
+.article.work { // Specific Style: Work Detail
+  gap: $margin-12x;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-8x;
+  }
+}
+
+.article__title {
+  @include fontSize(32);
+
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(24);
+  }
+}
+.article__title.work { // Specific Style: Work Detail
+  text-transform: none;
+}
+
+.article__body {
+  display: flex;
+  flex-direction: column;
+  gap: $margin-18x;
+
+  h2 {
+    @include fontSize(24);
+
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 0 $margin-6x;
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(20);
+    }
+  }
+
+  p, ul {
+    @include fontSize(14);
+
+    font-weight: 500;
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(12);
+    }
+  }
+
+  ul {
+    list-style: circle;
+    margin: 0;
+    padding: 0 0 0 1em;
+  }
+  
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-12x;
+  }
+}
+.article__body.work { // Specific Style: Work Detail
+  gap: $margin-8x;
+  flex-direction: row;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    flex-direction: column;
+  }
+}
+
+// Specific Style: Work Detail
+.work__figures {
+  display: flex;
+  flex-direction: column;
+  gap: $margin-6x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-2x;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.work__spec {
+  @include fontSize(16);
+
+  font-weight: 900;
+
+  display: flex;
+  flex-direction: column;
+  gap: $margin-1x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+    gap: 0;
+  }
+}
+
+.work__outline {
+  min-width: 400px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: $margin-12x;
+  
+  padding: $margin-12x 0;
+  
+  @media only screen and (max-width: $break-point-large) {
+    min-width: 40%;
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    min-width: 100%;
+    gap: $margin-8x;
+    padding: 0;
+  }
+}
+
+.work__outline > p {
+  @include fontSize(14);
+
+  font-weight: 600;
+  margin: 0;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(12);
+  }
+}
+
+.work__outline > .notes {
+  @include fontSize(12);
+
+  font-weight: 300;
+
+  p:first-child { margin-top: 0; }
+  p:last-child { margin-bottom: 0; }
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(10);
+  }
+}
+
+.work__outline > .related-links {
+  padding: $margin-12x 0 0;
+  border-top: 1px $border-color solid;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-8x 0 0;
+  }
+}
+
+.work__outline>.related-links h2 {
+  @include fontSize(16);
+
+  font-weight: 900;
+  margin: 0 0 $margin-2x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(14);
+  }
+}
+
+.work__outline > .related-links ul {
+  @include fontSize(12);
+
+  font-weight: 300;
+  text-transform: uppercase;
+  list-style: circle;
+
+  display: flex;
+  flex-direction: column;
+  gap: $margin-1x;
+
+  margin: 0;
+  padding: 0 0 0 1em;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(10);
+    gap: 0;
+  }
+}

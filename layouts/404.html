@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main class="main" role="main">
+  <section class="article">
+    <h1 class="article__title">404 File not found.</h1>
+    <div class="article__body">
+      <p>The site configured at this address does not contain the requested file.</p>
+      <p>
+        If this is your site, make sure that the filename case matches the URL.<br>
+        For root URLs (like {{ .Site.BaseURL }}) you must provide an index.html file.
+      </p>
+    </div>
+  </section>
+</main>
+
+{{ partial "footer.html" . }}
+{{ partial "tail.html" . }}

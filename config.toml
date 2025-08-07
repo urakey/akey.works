@@ -1,0 +1,23 @@
+Baseurl       = 'https://akey.works'
+Title         = 'Works.'
+Publishdir    = 'docs'
+
+[Params]
+  description = 'Aki FUKAYAMA (akey) is a Designer Based in Tokyo.'
+  feed        = '/feed.rss'
+  archives    = ['2024', '2023', '2022', '2021', '2020', '2019', '2018', '2017', '2016']
+
+[Params.Author]
+  name = 'Aki FUKAYAMA (akey)'
+  url  = '/about/'
+
+[Pagination]
+  pagerSize = 100
+
+[Taxonomies]
+  categories = 'categories'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+disableLiveReload = true

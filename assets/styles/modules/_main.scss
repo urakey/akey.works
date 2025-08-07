@@ -1,0 +1,45 @@
+//==============================================================================
+//  Module: Main
+//==============================================================================
+
+.main {
+  @include wrapper;
+
+  width: 100%;
+  padding: 0 $margin-12x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    padding: 0;
+  }
+}
+
+.main__pagination {
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: $margin-6x;
+  
+  padding: $margin-20x $margin-12x 0;
+
+  .nolinks {
+    color: $neutral-color-soft-gray;
+  }
+
+  @media only screen and (max-width: $break-point-medium) {
+    padding: $margin-12x $margin-6x 0;
+  }
+
+  &--prev,
+  &--next {
+    @include fontSize(20);
+    
+    font-weight: 600;
+    text-transform: uppercase;
+  
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(18);
+    }
+  }
+}

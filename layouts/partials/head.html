@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+{{ if .IsHome }}
+<title>{{ .Site.Title }}</title>
+{{ else }}
+<title>{{ with .Data.Plural }}{{ . }} | {{ end }}{{ with .Title }}{{ . | safeHTML }} | {{ end }}{{ .Site.Title }}</title>
+{{ end }}
+<meta name="description" content="{{ with .Params.excerpt }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="viewport" content="width=device-width">
+<link rel="author" href="{{ .Site.Params.Author.url }}">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/images/meta/apple-touch-icon.png">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">
+<link rel="alternate" type="application/rss+xml" title="RSS2.0" href="{{ .Site.Params.feed }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ partial "ogp.html" . }}
+{{ partial "styles.html" . }}
+{{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WP95V4HTKC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-WP95V4HTKC');
+</script>
+</head>
+<body role="document">

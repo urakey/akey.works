@@ -1,0 +1,120 @@
+//==============================================================================
+//  Module: Header
+//==============================================================================
+
+.header {
+  @include wrapper;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  
+  padding: $margin-header-top $margin-12x 0;
+
+  @media only screen and (max-width: $break-point-medium) {
+      padding: $margin-header-top-s 0 0;
+  }
+}
+
+.header__upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: $margin-6x;
+  
+  padding: 0 $margin-12x;
+  
+  @media only screen and (max-width: $break-point-medium) {
+    gap: $margin-4x;
+    padding: 0 $margin-6x;
+  }
+}
+
+.header__lower {
+  margin: $margin-6x 0 0 0;
+  padding: 0 $margin-12x;
+
+  @media only screen and (max-width: $break-point-medium) {
+    margin: $margin-4x 0 0 0;
+    padding: 0 $margin-6x;
+  }
+}
+
+.header__id {
+  margin: 0;
+  line-height: 1;
+
+  a {
+    display: block;
+    width: 174px;
+    text-indent: -7777px;
+    background-image: url($base-image + "/logo.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &:hover {
+      background-image: url($base-image + "/logo-hover.svg");
+    }
+ 
+    @media only screen and (max-width: $break-point-medium) {
+      width: 130px;
+    }
+  }
+ 
+}
+
+.header__description {
+  @include fontSize(14);
+
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: $break-point-medium) {
+    @include fontSize(8);
+  }
+}
+
+.header__navigation {
+
+  ul {
+    list-style: none;
+    line-height: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: $margin-8x;
+
+    margin: 0;
+    padding: 0px;
+
+    @media only screen and (max-width: $break-point-medium) {
+      gap: $margin-4x;
+    }
+  }
+
+  li {
+    line-height: 1;
+  }
+
+  a {
+    @include fontSize(32);
+
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &.current {
+      text-decoration: line-through;
+    }
+    
+    @media only screen and (max-width: $break-point-medium) {
+      @include fontSize(16);
+    }
+  }
+}
