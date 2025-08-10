@@ -1,6 +1,5 @@
 import gulp from 'gulp'
 import { deleteAsync } from 'del'
-import browserify from 'browserify'
 import autoprefixer from 'gulp-autoprefixer'
 import cleanCss from 'gulp-clean-css'
 import dartSass from 'gulp-dart-sass'
@@ -9,9 +8,7 @@ import imagemin from 'gulp-imagemin'
 import plumber from 'gulp-plumber'
 import rename from 'gulp-rename'
 import replace from 'gulp-replace'
-import uglify from 'gulp-uglify'
 import jpegoptim from 'imagemin-jpegoptim'
-import through2 from 'through2'
 
 var DOMAIN = 'https://akey.works';
 var PATHS = {
@@ -45,28 +42,6 @@ export function minifyCss() {
     .pipe(plumber())
     .pipe(cleanCss())
     .pipe(gulp.dest(PATHS.dest));
-}
-
-// -----------------------------------------------------------------------------
-// JavaScript
-export function buildJs() {
-  return gulp.src(PATHS.src + '/scripts/*.js')
-    .pipe(plumber())
-    .pipe(through2.obj(function(file, encode, callback) {
-      browserify(file.path)
-        .bundle(function(err, res){
-          file.contents = res;
-          callback(null, file);
-        });
-    }))
-    .pipe(gulp.dest(PATHS.dest + '/scripts'));
-}
-
-export function minifyJs() {
-  return gulp.src(PATHS.dest + '/scripts/*.js')
-    .pipe(plumber())
-    .pipe(uglify())
-    .pipe(gulp.dest(PATHS.dest + '/scripts'));
 }
 
 // -----------------------------------------------------------------------------
@@ -125,15 +100,6 @@ export function minifyImagesJpegoptim() {
 
 // -----------------------------------------------------------------------------
 // Utility
-export function copyJs() {
-  return gulp.src([
-      'node_modules/jquery/dist/jquery.min.js',
-      'node_modules/jquery_lazyload/jquery.lazyload.min.js',
-      'node_modules/three/build/three.min.js'
-    ])
-    .pipe(gulp.dest(PATHS.dest + '/scripts/vendor'));
-}
-
 export function copyFiles() {
   return gulp.src(PATHS.src + '/files/**')
     .pipe(gulp.dest(PATHS.dest + '/files'));
