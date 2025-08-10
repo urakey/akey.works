@@ -19,5 +19,3 @@ Publishdir    = 'docs'
 
 [markup.goldmark.renderer]
   unsafe = true
-
-disableLiveReload = true

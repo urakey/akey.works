@@ -2,7 +2,7 @@
   <a href="{{ .Permalink }}" itemprop="url">
     {{ with .Params.eyecatch }}
       <figure class="articleListItem__eyecatch">
-        <img class="Lazy" src="/assets/images/eyecatch.png" data-original="{{ . }}" alt="" itemprop="image">
+        <img loading="lazy" src="{{ . }}" alt="" width="100%" height="auto" itemprop="image">
       </figure>
     {{ end }}
     <h1 class="articleListItem__title" itemprop="name">{{ .Title | safeHTML }}</h1>

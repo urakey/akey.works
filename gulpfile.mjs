@@ -69,8 +69,7 @@ export function beautifyHtml() {
 // RSS
 export function replaceRss() {
   return gulp.src(PATHS.publishdir + '/index.xml')
-    .pipe(replace('class="Lazy" src="/assets/images/eyecatch.png" ', ''))
-    .pipe(replace('data-original="/assets/images/', 'src="' + DOMAIN + '/assets/images/'))
+    .pipe(replace('src="/assets/images/', 'src="' + DOMAIN + '/assets/images/'))
     .pipe(gulp.dest(PATHS.publishdir));
 }
 
