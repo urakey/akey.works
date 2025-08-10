@@ -23,7 +23,6 @@ Designer
 特に「1番不利益を被るひと」や「1番疎外感を感じるであろうひと」などの感情をトレースすることは、デザインするときに大切にしていることのひとつです。
 
 📸 [1020](https://1020.photo/)  
-💎 [chocolateboard.](https://chocolateboard.net/)  
 
 {{% /section %}}
 
